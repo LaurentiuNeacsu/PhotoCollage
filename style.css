@@ -1,0 +1,115 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin: 0px;
+    background-color: antiquewhite;
+}
+
+header{
+    height: 12vh;
+    width: 100vw;
+    background-color: lightgrey;
+}
+
+p{
+    text-align: center; 
+    margin: 0px; 
+    font-size: 18px; 
+    font-style: italic; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 250px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.top-bar{
+    list-style: none;
+    float: left;
+    margin-left: 45px;
+    padding-left: 0px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-left: 55px;
+    padding-top: 5px;
+}
+
+.top-button{
+    display: inline-block;
+    line-height: 75px;
+}
+
+.side-bar{
+    list-style: none;
+    width: 200px;
+    background-color: lightgrey;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+.side-button{
+    text-align: center;
+}
+
+.side-bar li i{
+    float: left;
+    padding-left: 5px;
+}
+
+#btnSave{
+    margin-left: 5px;
+}
+
+#canvas-principal{
+    border: 2px solid black;
+    margin-left: 400px;
+    margin-top: -100px;
+    margin-bottom: 100px;
+    background-color: gray;
+}
+
+#cadru{
+    margin-left: 200px;
+    margin-top: -100px;
+}
+
+#canvas1-stil1{
+    border: 2px solid black;
+    margin-left: -300px;
+    margin-bottom: 120px;
+    visibility: hidden;
+    background-color:white;
+}
+
+#canvas2-stil1{
+    border: 2px solid black;
+    margin-left: -450px;
+    margin-bottom: 400px;
+    visibility: hidden;
+    background-color: white;
+}
+
+#canvas1-stil2{
+    border: 2px solid black;
+    margin-left: -250px;
+    margin-bottom: 150px;
+    margin-right: 70px;
+    visibility: hidden;
+    background-color: white;
+}
+
+#canvas2-stil2{
+    border: 2px solid black;
+    margin-left: -65px;
+    margin-bottom: 120px;
+    visibility: hidden;
+    background-color: white;
+}

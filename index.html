@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="lib/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="functionality.js"></script>
+    </head>
+    <header>
+        <img src="media/logo.png" class="logo">
+        <ul class="top-bar"> 
+            <li class="top-button">
+                <i class="fa fa-save"></i>      
+                <button><a href="#" id="btnDownload">Save image</a></button>
+            </li>
+            <li class="top-button">
+                <button id="btnStil1">Stil 1</button>
+            </li>
+            <li class="top-button">
+                <button id="btnStil2">Stil 2</button>
+            </li>
+            <li class="top-button">
+                <p>Photo collage - Proiect Multimedia 2019-2020</p>
+            </li>
+        </ul>        
+    </header>
+    <body>
+        <audio src="media/click.mp3" muted id="click-sound"></audio>
+        <ul class="side-bar">
+            <hr width="199px" style="margin-top:0px;">
+            <li class="side-button">
+                <i class="fa fa-magic"></i> Efecte<br/>
+                <button id="btnBlur">Blur</button>
+                <button id="btnGrayscale">Grayscale</button>
+                <br />
+                <select id="select-effects">
+                    <option value="">Selecteaza canvasul</option>
+                    <option value="1">Stil 1, dreapta jos</option>
+                    <option value="2">Stil 1, stanga sus</option>
+                    <option value="3">Stil 2, vertical</option>
+                    <option value="4">Stil 2, orizontal</option>
+                </select>                 
+            </li>
+            <hr width="199px">
+            <li class="side-button">
+                <i class="fa fa-volume-off"></i> Sunete
+                <button id="btnOn">ON</button>
+                /
+                <button id="btnOff">OFF</button>
+            </li>
+            <hr width="199px">
+            <li class="side-button">
+                <i class="fa fa-image"></i> Selecteaza fundal
+                <input id="btnSelectFundal" type="file" />
+            </li>
+            <hr width="199px">
+        </ul>
+        <div id="cadru">
+            <canvas id="canvas-principal" width="600" height="600"></canvas>
+            <canvas id="canvas1-stil1" width="200" height="200"></canvas>
+            <canvas id="canvas2-stil1" width="200" height="200"></canvas>
+            <canvas id="canvas1-stil2" width="150" height="500"></canvas>
+            <canvas id="canvas2-stil2" width="400" height="200"></canvas>
+        </div>
+    </body>
+</html>
